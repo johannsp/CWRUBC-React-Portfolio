@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Use green sky background with overall green color scheme */
+body {
+  background-image: url("./images/green_sky_4-wallpaper-_01_1388x1080.png");
+  background-color: #165738;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  margin-bottom: 1vw;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  padding: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+/* Adjust colors for links to green themed */
+a:link {
+  color: #23E5FB;
+}
+
+a:hover,
+a:active {
+  color: #D7FEE5;
+}
+
+a:visited {
+  color: #B9B4FD;
+}
+
+/* Restore standard formatting for description list */
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+dt {
+  display: block;
+}
+
+dd {
+  display: block;
+  margin-left: 40px;
+}
+
+.avatar {
+  margin-left: 15vw;
+}
+
+.heading {
+  text-align: center;
+  color: #A5FDD4;
+  background-color: black;
+}
+
+#left,
+#right {
+  margin: auto;
+  color: #A5FDD4;
+}
+
+/* On regular sized screens use flex box for positioning */
+#right {
+  flex: 0 0 42vw;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+/* On small screens, we are no longer using row direction but column */
+@media all and (max-width: 675px) {
+  #right {
+    flex: 0 0 auto;
+  }
+
+  .flex-container {
+    display: block;
+  }
+}
