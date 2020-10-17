@@ -2,100 +2,13 @@ import React from "react";
 // since not using Bootstrap, currently
 // eslint-disable-next-line
 import { Col, Row, Container } from "../components/Grid";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <Container fluid>
-      <header className="heading">
-        <h1>
-        John L. Spetz
-        </h1>
-      </header>
-
-      <aside className="flex-container">
-
-        <div className="avatar">
-          <img src="../images/JohnLSpetz_avatar.jpg" alt="John L Spetz" />
-        </div>
-
-        <address id="right">
-
-          <h2>
-          Contact Info
-          </h2>
-
-          <table>
-
-          <tr>
-            <td>
-            <i className="fa fa-envelope"></i>
-            </td>
-            <td>
-            Email: 
-            </td>
-            <td>
-            <a target="_blank" rel="noopener noreferrer" href="mailto:JohnLSpetz@zoho.com">
-            JohnLSpetz@zoho.com
-            </a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-            <i className="fa fa-linkedin"></i>
-            </td>
-            <td>
-            LinkedIn: 
-            </td>
-            <td>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/john-l-spetz/">
-            www.linkedin.com/in/john-l-spetz/
-            </a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-            <i className="fa fa-github"></i>
-            </td>
-            <td>
-            GitHub:
-            </td>
-            <td>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/johannsp">
-            github.com/johannsp
-            </a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-            <i className="fa fa-file-pdf-o"></i>
-            </td>
-            <td>
-            Resume:
-            </td>
-            <td>
-            <a target="_blank" rel="noopener noreferrer" href="resume_JSpetz.pdf">Resume as PDF</a><br />
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-            <i className="fa fa-television"></i>
-            </td>
-            <td>
-            Portfolio:
-            </td>
-            <td>
-            <a href="/portfolio">Recent Projects</a><br />
-            </td>
-          </tr>
-          </table>
-
-        </address>
-
-      </aside>
+      <Header />
 
       <main>
 
@@ -156,6 +69,9 @@ const Home = () => {
         </section>
 
       </main>
+
+      <Footer />
+
     </Container>
   );
 };

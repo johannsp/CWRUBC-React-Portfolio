@@ -14,7 +14,7 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-header {
+header, footer {
   padding: 0;
   margin: 0;
   min-width: 100%;
@@ -37,6 +37,11 @@ h3 {
 p {
   font-size: 1rem;
   padding: 1rem;
+}
+
+p.fraktur {
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #A5FDD4;
 }
 
 /* Adjust colors for links to green themed */
