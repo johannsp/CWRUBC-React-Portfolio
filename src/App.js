@@ -6,8 +6,11 @@ import NoMatch from "./pages/NoMatch";
 import './App.css';
 
 function App() {
+  //const Basename="/";
+  //const Basename="/CWRUBC-React-Portfolio";
+  const Basename="CWRUBC-React-Portfolio/";
   return (
-    <Router basename="/CWRUBC-React-Portfolio">
+    <Router basename={Basename}>
       <div>
         <Switch>
           <Route exact path={["/", "/home"]}>

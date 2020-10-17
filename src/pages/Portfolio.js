@@ -5,6 +5,15 @@ import { Col, Row, Container } from "../components/Grid";
 import Header from "../components/Header";
 import { Projects, Project } from "../components/Project";
 import Footer from "../components/Footer";
+// Import the picture names from src/images subdirectory
+// NB. the pictures in public/images are symlinked into src/images!
+import VinylD_CWRUBCPrj02_NodeApp_preview from "../images/VinylD_CWRUBCPrj02_NodeApp_preview.png";
+import Speech_Text_WebPagePreview from "../images/Speech-Text_WebPagePreview.png";
+import WeatherDashboard_website_preview from "../images/WeatherDashboard_website_preview.png";
+import NoteTaker_HerokuApp_preview from "../images/NoteTaker_HerokuApp_preview.png";
+import CodeQuiz_website_preview from "../images/CodeQuiz_website_preview.png";
+import Employee_Tracker_NodeApp_preview from "../images/Employee-Tracker_NodeApp_preview.png";
+import Readme_Generator_NodeApp_preview from "../images/Readme-Generator_NodeApp_preview.png";
 
 const Home = () => {
   return (
@@ -30,7 +39,7 @@ const Home = () => {
             desc="A web app to track one's record collection"
             github="https://github.com/johannsp/CWRUBC-Project-2-Team"
             link="https://project-2-cwrubc-summer2020.herokuapp.com/collection.html"
-            image="./images/VinylD_CWRUBCPrj02_NodeApp_preview.png"
+            image={VinylD_CWRUBCPrj02_NodeApp_preview}
             blank={true}
           />
 
@@ -39,7 +48,7 @@ const Home = () => {
             desc="A web app to record speech in English, transcribe it as text, and translate it to German"
             github="https://github.com/johannsp/CWRUBC-Project01"
             link="https://johannsp.github.io/CWRUBC-Project01/"
-            image="./images/Speech-Text_WebPagePreview.png"
+            image={Speech_Text_WebPagePreview}
             blank={true}
           />
 
@@ -48,7 +57,7 @@ const Home = () => {
             desc="A web app to check the weather forecast at various cities or places as preparation for travel."
             github="https://github.com/johannsp/CWRUBC-Weather-Dashboard"
             link="https://johannsp.github.io/CWRUBC-Weather-Dashboard/"
-            image="./images/WeatherDashboard_website_preview.png"
+            image={WeatherDashboard_website_preview}
             blank={true}
           />
 
@@ -57,7 +66,7 @@ const Home = () => {
             desc="A Node Express app to write, save, and delete notes in JSON format"
             github="https://github.com/johannsp/CWRUBC-Note-Taker"
             link=""
-            image="./images/NoteTaker_HerokuApp_preview.png"
+            image={NoteTaker_HerokuApp_preview}
             blank={true}
           />
 
@@ -66,7 +75,7 @@ const Home = () => {
             desc="A web app to administer a timed quiz on the Javascript web programming language."
             github="https://github.com/johannsp/CWRUBC-Code-Quiz"
             link="https://johannsp.github.io/CWRUBC-Code-Quiz/"
-            image="./images/CodeQuiz_website_preview.png"
+            image={CodeQuiz_website_preview}
             blank={true}
           />
 
@@ -75,7 +84,7 @@ const Home = () => {
             desc="Node-based content management system (CMS) for employee information"
             github="https://github.com/johannsp/CWRUBC-Employee-Tracker"
             link=""
-            image="./images/Employee-Tracker_NodeApp_preview.png"
+            image={Employee_Tracker_NodeApp_preview}
             blank={true}
           />
 
@@ -84,7 +93,7 @@ const Home = () => {
             desc="A Node command line app to generate the README.md for a new project"
             github="https://github.com/johannsp/CWRUBC-Readme-Generator"
             link=""
-            image="./images/Readme-Generator_NodeApp_preview.png"
+            image={Readme_Generator_NodeApp_preview}
             blank={true}
           />
 

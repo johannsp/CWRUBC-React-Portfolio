@@ -1,4 +1,5 @@
 import React from "react";
+import JohnLSpetz_avatar from "../../images/JohnLSpetz_avatar.jpg";
 import {
   FaRegEnvelope,
   FaLinkedinIn,
@@ -52,7 +53,7 @@ export function SiteLinks() {
     <aside className="flex-container">
 
       <div className="avatar">
-        <img src="./images/JohnLSpetz_avatar.jpg" alt="John L Spetz" />
+        <img src={JohnLSpetz_avatar} alt="John L Spetz" />
       </div>
 
       <address id="right">
