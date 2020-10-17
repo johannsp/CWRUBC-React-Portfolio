@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css",
-    "main.js": "/CWRUBC-React-Portfolio/static/js/main.e9bcd63e.chunk.js",
-    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.e9bcd63e.chunk.js.map",
+    "main.js": "/CWRUBC-React-Portfolio/static/js/main.11f86998.chunk.js",
+    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.11f86998.chunk.js.map",
     "runtime-main.js": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js",
     "runtime-main.js.map": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js.map",
     "static/js/2.a6301e17.chunk.js": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js",
     "static/js/2.a6301e17.chunk.js.map": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js.map",
     "index.html": "/CWRUBC-React-Portfolio/index.html",
-    "precache-manifest.05baf3d0528cb35b67674bff64c63804.js": "/CWRUBC-React-Portfolio/precache-manifest.05baf3d0528cb35b67674bff64c63804.js",
+    "precache-manifest.319f9854eef213fe37dcf95c741fa57a.js": "/CWRUBC-React-Portfolio/precache-manifest.319f9854eef213fe37dcf95c741fa57a.js",
     "service-worker.js": "/CWRUBC-React-Portfolio/service-worker.js",
     "static/css/main.84b64041.chunk.css.map": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css.map",
     "static/js/2.a6301e17.chunk.js.LICENSE.txt": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.2e713e27.js",
     "static/js/2.a6301e17.chunk.js",
     "static/css/main.84b64041.chunk.css",
-    "static/js/main.e9bcd63e.chunk.js"
+    "static/js/main.11f86998.chunk.js"
   ]
 }
