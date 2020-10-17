@@ -23,7 +23,6 @@ export function SiteLinkRow({
   // Per jsx-in-depth React topic, run time type choice requires
   // a capitalized variable rather than the raw prop.
   const Icon = icon;
-  console.log("∞° Icon=\n", Icon);
   const text = children || link;
   const attributes = {};
   if (blank) {
