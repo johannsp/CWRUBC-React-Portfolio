@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css",
-    "main.js": "/CWRUBC-React-Portfolio/static/js/main.d027a391.chunk.js",
-    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.d027a391.chunk.js.map",
+    "main.js": "/CWRUBC-React-Portfolio/static/js/main.aaf86345.chunk.js",
+    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.aaf86345.chunk.js.map",
     "runtime-main.js": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js",
     "runtime-main.js.map": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js.map",
     "static/js/2.237b843a.chunk.js": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js",
     "static/js/2.237b843a.chunk.js.map": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.map",
     "index.html": "/CWRUBC-React-Portfolio/index.html",
-    "precache-manifest.48f156ce871a936a8c7d9a0ac4b63ce7.js": "/CWRUBC-React-Portfolio/precache-manifest.48f156ce871a936a8c7d9a0ac4b63ce7.js",
+    "precache-manifest.26e151b2dc37d7bee0d175f3dede7072.js": "/CWRUBC-React-Portfolio/precache-manifest.26e151b2dc37d7bee0d175f3dede7072.js",
     "service-worker.js": "/CWRUBC-React-Portfolio/service-worker.js",
     "static/css/main.84b64041.chunk.css.map": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css.map",
     "static/js/2.237b843a.chunk.js.LICENSE.txt": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2e713e27.js",
     "static/js/2.237b843a.chunk.js",
     "static/css/main.84b64041.chunk.css",
-    "static/js/main.d027a391.chunk.js"
+    "static/js/main.aaf86345.chunk.js"
   ]
 }
