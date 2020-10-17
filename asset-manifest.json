@@ -1,23 +1,30 @@
 {
   "files": {
     "main.css": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css",
-    "main.js": "/CWRUBC-React-Portfolio/static/js/main.df09c859.chunk.js",
-    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.df09c859.chunk.js.map",
+    "main.js": "/CWRUBC-React-Portfolio/static/js/main.e9bcd63e.chunk.js",
+    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.e9bcd63e.chunk.js.map",
     "runtime-main.js": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js",
     "runtime-main.js.map": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js.map",
-    "static/js/2.237b843a.chunk.js": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js",
-    "static/js/2.237b843a.chunk.js.map": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.map",
+    "static/js/2.a6301e17.chunk.js": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js",
+    "static/js/2.a6301e17.chunk.js.map": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js.map",
     "index.html": "/CWRUBC-React-Portfolio/index.html",
-    "precache-manifest.2e726dc88cc93d9187dab0650c562082.js": "/CWRUBC-React-Portfolio/precache-manifest.2e726dc88cc93d9187dab0650c562082.js",
+    "precache-manifest.05baf3d0528cb35b67674bff64c63804.js": "/CWRUBC-React-Portfolio/precache-manifest.05baf3d0528cb35b67674bff64c63804.js",
     "service-worker.js": "/CWRUBC-React-Portfolio/service-worker.js",
     "static/css/main.84b64041.chunk.css.map": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css.map",
-    "static/js/2.237b843a.chunk.js.LICENSE.txt": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.LICENSE.txt",
+    "static/js/2.a6301e17.chunk.js.LICENSE.txt": "/CWRUBC-React-Portfolio/static/js/2.a6301e17.chunk.js.LICENSE.txt",
+    "static/media/CodeQuiz_website_preview.png": "/CWRUBC-React-Portfolio/static/media/CodeQuiz_website_preview.5ebbd063.png",
+    "static/media/Employee-Tracker_NodeApp_preview.png": "/CWRUBC-React-Portfolio/static/media/Employee-Tracker_NodeApp_preview.ca9718af.png",
+    "static/media/NoteTaker_HerokuApp_preview.png": "/CWRUBC-React-Portfolio/static/media/NoteTaker_HerokuApp_preview.7ecc695f.png",
+    "static/media/Readme-Generator_NodeApp_preview.png": "/CWRUBC-React-Portfolio/static/media/Readme-Generator_NodeApp_preview.c328776e.png",
+    "static/media/Speech-Text_WebPagePreview.png": "/CWRUBC-React-Portfolio/static/media/Speech-Text_WebPagePreview.3f5acaa5.png",
+    "static/media/VinylD_CWRUBCPrj02_NodeApp_preview.png": "/CWRUBC-React-Portfolio/static/media/VinylD_CWRUBCPrj02_NodeApp_preview.8b909744.png",
+    "static/media/WeatherDashboard_website_preview.png": "/CWRUBC-React-Portfolio/static/media/WeatherDashboard_website_preview.fe6f2de0.png",
     "static/media/style.css": "/CWRUBC-React-Portfolio/static/media/green_sky_4-wallpaper-_01_1388x1080.d450e58f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2e713e27.js",
-    "static/js/2.237b843a.chunk.js",
+    "static/js/2.a6301e17.chunk.js",
     "static/css/main.84b64041.chunk.css",
-    "static/js/main.df09c859.chunk.js"
+    "static/js/main.e9bcd63e.chunk.js"
   ]
 }
