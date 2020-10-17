@@ -2,7 +2,10 @@
 
 Personal portfolio as a React web site
 
+GitHub Pages (gh-pages) link:
+https://johannsp.github.io/CWRUBC-React-Portfolio/
 
+[![React-Portfolio-React-Web-App-preview.png](https://i.postimg.cc/gjYYD1fY/React-Portfolio-React-Web-App-preview.png)](https://postimg.cc/N9zqGCsV)
 
 ## Table of Contents
 - [Installation](https://github.com/johansp/CWRUBC-React-Portfolio#Installation) 
