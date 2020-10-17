@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CWRUBC-React-Portfolio">
       <div>
         <Switch>
           <Route exact path={["/", "/home"]}>
