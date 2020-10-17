@@ -8,7 +8,8 @@ import './App.css';
 function App() {
   //const Basename="/";
   //const Basename="/CWRUBC-React-Portfolio";
-  const Basename="CWRUBC-React-Portfolio/";
+  //const Basename="CWRUBC-React-Portfolio/";
+  const Basename=`${process.env.PUBLIC_URL}/`;
   return (
     <Router basename={Basename}>
       <div>
