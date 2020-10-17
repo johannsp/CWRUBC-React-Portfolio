@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  FaRegEnvelope,
+  FaLinkedinIn,
+  FaGithub,
+  FaRegFilePdf,
+  FaHome,
+  FaTv
+} from "react-icons/fa";
 
 export function SiteLinkTable({ children }) {
   return <table><tbody>{children}</tbody></table>;
@@ -12,6 +20,10 @@ export function SiteLinkRow({
   blank = false,
   children
 }) {
+  // Per jsx-in-depth React topic, run time type choice requires
+  // a capitalized variable rather than the raw prop.
+  const Icon = icon;
+  console.log("∞° Icon=\n", Icon);
   const text = children || link;
   const attributes = {};
   if (blank) {
@@ -19,11 +31,10 @@ export function SiteLinkRow({
     attributes["rel"] = "noopener noreferrer";
   }
   attributes["href"] = `${linkType}${link}`;
-  console.log(attributes);
   return (
     <tr>
       <td>
-      <i className={icon}></i>
+      <Icon />
       </td>
       <td>
       {section}: 
@@ -54,42 +65,42 @@ export function SiteLinks() {
         <SiteLinkTable>
 
         <SiteLinkRow
-          icon="fa fa-envelope"
+          icon={FaRegEnvelope}
           section="Email"
           linkType="mailto:"
           link="JohnLSpetz@zoho.com"
           blank={true}
         />
         <SiteLinkRow
-          icon="fa fa-linkedin"
+          icon={FaLinkedinIn}
           section="LinkedIn"
           linkType="https://"
           link="www.linkedin.com/in/john-l-spetz/"
           blank={true}
         />
         <SiteLinkRow
-          icon="fa fa-github"
+          icon={FaGithub}
           section="GitHub"
           linkType="https://"
           link="github.com/johannsp"
           blank={true}
         />
         <SiteLinkRow
-          icon="fa fa-file-pdf-o"
+          icon={FaRegFilePdf}
           section="Resume"
           linkType="https://"
           link="github.com/johannsp"
           blank={true}
         >Resume as PDF</SiteLinkRow>
         <SiteLinkRow
-          icon="fa fa-home"
+          icon={FaHome}
           section="Home"
           linkType="/"
           link="home"
           blank={false}
         >Profile Page</SiteLinkRow>
         <SiteLinkRow
-          icon="fa fa-television"
+          icon={FaTv}
           section="Portfolio"
           linkType="/"
           link="Portfolio"
