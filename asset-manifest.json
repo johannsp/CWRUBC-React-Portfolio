@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61169a3c.chunk.css",
+    "main.js": "/static/js/main.ae88e03e.chunk.js",
+    "main.js.map": "/static/js/main.ae88e03e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
+    "static/js/2.237b843a.chunk.js": "/static/js/2.237b843a.chunk.js",
+    "static/js/2.237b843a.chunk.js.map": "/static/js/2.237b843a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.abc878f958f436e57c95618d1aadc8b9.js": "/precache-manifest.abc878f958f436e57c95618d1aadc8b9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61169a3c.chunk.css.map": "/static/css/main.61169a3c.chunk.css.map",
+    "static/js/2.237b843a.chunk.js.LICENSE.txt": "/static/js/2.237b843a.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/green_sky_4-wallpaper-_01_1388x1080.d450e58f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e312f208.js",
+    "static/js/2.237b843a.chunk.js",
+    "static/css/main.61169a3c.chunk.css",
+    "static/js/main.ae88e03e.chunk.js"
+  ]
+}
