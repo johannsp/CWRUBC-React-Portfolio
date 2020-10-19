@@ -94,14 +94,14 @@ export function SiteLinks() {
         <SiteLinkRow
           icon={FaHome}
           section="Home"
-          linkType="/"
+          linkType="/CWRUBC-React-Profile/"
           link="home"
           blank={false}
         >Profile Page</SiteLinkRow>
         <SiteLinkRow
           icon={FaTv}
           section="Portfolio"
-          linkType="/"
+          linkType="/CWRUBC-React-Profile/"
           link="Portfolio"
           blank={false}
         >Recent Projects</SiteLinkRow>
