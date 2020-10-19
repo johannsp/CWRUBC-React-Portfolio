@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.61169a3c.chunk.css",
-    "main.js": "/static/js/main.2e2fe496.chunk.js",
-    "main.js.map": "/static/js/main.2e2fe496.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.237b843a.chunk.js": "/static/js/2.237b843a.chunk.js",
-    "static/js/2.237b843a.chunk.js.map": "/static/js/2.237b843a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1f10d27b19cfd1289b48088400256ccf.js": "/precache-manifest.1f10d27b19cfd1289b48088400256ccf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.61169a3c.chunk.css.map": "/static/css/main.61169a3c.chunk.css.map",
-    "static/js/2.237b843a.chunk.js.LICENSE.txt": "/static/js/2.237b843a.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/static/media/green_sky_4-wallpaper-_01_1388x1080.d450e58f.png"
+    "main.css": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css",
+    "main.js": "/CWRUBC-React-Portfolio/static/js/main.c9d14505.chunk.js",
+    "main.js.map": "/CWRUBC-React-Portfolio/static/js/main.c9d14505.chunk.js.map",
+    "runtime-main.js": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js",
+    "runtime-main.js.map": "/CWRUBC-React-Portfolio/static/js/runtime-main.2e713e27.js.map",
+    "static/js/2.237b843a.chunk.js": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js",
+    "static/js/2.237b843a.chunk.js.map": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.map",
+    "index.html": "/CWRUBC-React-Portfolio/index.html",
+    "precache-manifest.f3a0984593a04ddb897ad4c1c8af92ef.js": "/CWRUBC-React-Portfolio/precache-manifest.f3a0984593a04ddb897ad4c1c8af92ef.js",
+    "service-worker.js": "/CWRUBC-React-Portfolio/service-worker.js",
+    "static/css/main.84b64041.chunk.css.map": "/CWRUBC-React-Portfolio/static/css/main.84b64041.chunk.css.map",
+    "static/js/2.237b843a.chunk.js.LICENSE.txt": "/CWRUBC-React-Portfolio/static/js/2.237b843a.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/CWRUBC-React-Portfolio/static/media/green_sky_4-wallpaper-_01_1388x1080.d450e58f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e312f208.js",
+    "static/js/runtime-main.2e713e27.js",
     "static/js/2.237b843a.chunk.js",
-    "static/css/main.61169a3c.chunk.css",
-    "static/js/main.2e2fe496.chunk.js"
+    "static/css/main.84b64041.chunk.css",
+    "static/js/main.c9d14505.chunk.js"
   ]
 }
