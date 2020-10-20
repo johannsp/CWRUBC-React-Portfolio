@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaRegEnvelope,
   FaLinkedinIn,
@@ -29,22 +30,41 @@ export function SiteLinkRow({
     attributes["target"] = "_blank";
     attributes["rel"] = "noopener noreferrer";
   }
-  attributes["href"] = `${linkType}${link}`;
-  return (
-    <tr>
-      <td>
-      <Icon />
-      </td>
-      <td>
-      {section}: 
-      </td>
-      <td>
-      <a {...attributes}>
-      {text}
-      </a>
-      </td>
-    </tr>
-  )
+  if (linkType.match(/^[/]/)) {
+    attributes["to"] = `${linkType}${link}`;
+    return (
+      <tr>
+        <td>
+        <Icon />
+        </td>
+        <td>
+        {section}: 
+        </td>
+        <td>
+        <Link {...attributes}>
+        {text}
+        </Link>
+        </td>
+      </tr>
+    )
+  } else {
+    attributes["href"] = `${linkType}${link}`;
+    return (
+      <tr>
+        <td>
+        <Icon />
+        </td>
+        <td>
+        {section}: 
+        </td>
+        <td>
+        <a {...attributes}>
+        {text}
+        </a>
+        </td>
+      </tr>
+    )
+  }
 }
 
 export function SiteLinks() {
@@ -94,14 +114,14 @@ export function SiteLinks() {
         <SiteLinkRow
           icon={FaHome}
           section="Home"
-          linkType="/CWRUBC-React-Portfolio/"
+          linkType="/"
           link="home"
           blank={false}
         >Profile Page</SiteLinkRow>
         <SiteLinkRow
           icon={FaTv}
           section="Portfolio"
-          linkType="/CWRUBC-React-Portfolio/"
+          linkType="/"
           link="Portfolio"
           blank={false}
         >Recent Projects</SiteLinkRow>
