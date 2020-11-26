@@ -57,13 +57,13 @@ const Home = () => {
           </p>
 
           <p>
-          I am working my way through the Summer 2020 session of the Case Western
-          Reserve University (CWRU) Coding Boot Camp to expand my command of the
-          latest web technologies.  In addition to deeper immersion into the world
-          of HTML with CSS and Javascript programming, our class gains real world
-          experience on both the browser front end and the server back end.  I gain
-          new web-enabled ways of using my existing SQL database background
-          knowledge.
+          Now, I have workd my way through the Summer 2020 session of the Case
+          Western Reserve University (CWRU) Coding Boot Camp to expand my
+          command of the latest web technologies.  In addition to deeper
+          immersion into the world of HTML with CSS and Javascript programming,
+          our class gained real world experience on both the browser front end
+          and the server back end.  I gained new web-enabled ways of using my
+          existing SQL database background knowledge.
           </p>
 
         </section>

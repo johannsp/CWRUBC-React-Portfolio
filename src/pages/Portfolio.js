@@ -26,6 +26,15 @@ const Home = () => {
           <Projects>
 
           <Project
+            title="Class Time App - Class Presentation Timer"
+            desc="A web app to track one's lecture using virtual index cards"
+            github="https://github.com/johannsp/CWRUBC-Project-3-Team"
+            link="https://project-3-cwrubc-summer2020.herokuapp.com/"
+            image="./images/ClassTimeApp_CWRUBCPrj03_ReactApp_preview.png"
+            blank={true}
+          />
+
+          <Project
             title="VinylD - Record Collection"
             desc="A web app to track one's record collection"
             github="https://github.com/johannsp/CWRUBC-Project-2-Team"
