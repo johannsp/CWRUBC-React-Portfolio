@@ -107,8 +107,8 @@ export function SiteLinks() {
         <SiteLinkRow
           icon={FaRegFilePdf}
           section="Resume"
-          linkType="https://"
-          link="github.com/johannsp"
+          linkType="./"
+          link="JSpetz_resume.pdf"
           blank={true}
         >Resume as PDF</SiteLinkRow>
         <SiteLinkRow
